@@ -1,0 +1,98 @@
+/* Meu primeiro arquivo CSS */
+
+/* TAGS */
+
+p{
+	color: white;
+	text-shadow: 1px 1px 1px #111111;
+	font-size: 18px;
+	font-family: Helvetica, arial;
+}
+
+body{
+	background-color: #000000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: #FF7F50;
+	text-shadow: 1px 1px 1px #111111;
+	text-align: center;
+	background-color: rgba(26, 80, 188, 0.0);
+	margin: 0 0 50px 0;
+}
+
+header{
+	background-color: #1A50BC;
+	height: 80px;
+	padding: 20px;
+}
+
+footer{
+	clear: both;
+	color: #E4AD3E;
+	text-shadow: 1px 1px 1px #111111;
+	background-color: #1A50BC;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+}
+
+/* IDs */
+
+#div_principal{
+	background-image: url('2020-sonic-videoconf-losthex.jpeg');
+	clear: both;
+	min-height: 400px;
+	width: 100%;
+	background-size: 100%;
+	padding: 100px 0px 0px 0px;
+}
+
+
+#logo{
+	float: left;
+
+}
+
+#menu{
+	float: right;
+	margin-top: 30px;
+}
+
+#menu a{
+	text-decoration: none;
+	color: #E4AD3E;
+	text-shadow: 1px 1px #111111;
+	padding: 17px 20px;
+}
+
+#menu a:hover{
+	background-color: #E4AD3E;
+	color: #1A50BC;
+}
+
+/* class */
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	background-color: rgba(26, 80, 188, 0.0);
+}
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 80px 0px 80px 0px;
+}
+
+/*
+.container{
+	width: 960px;
+	margin: 0 auto;
+	background-color: #1A50BC;
+}
+*/
